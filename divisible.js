@@ -1,12 +1,31 @@
+// for (let i = 1; i <= 50; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         console.log('foo bar')
+//     }
+//     else if (i % 3 === 0) {
+//         console.log('foo')
+//     }
+//     else if (i % 5 === 0) {
+//         console.log('bar')
+//     }
+//     else {
+//         console.log(i)
+//     }
+// }
+
+
+
+/*------Divisible------ */
+
 for (let i = 1; i <= 50; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-        console.log('foo bar')
+        console.log('foo bar', i)
     }
     else if (i % 3 === 0) {
-        console.log('foo')
+        console.log('foo', i)
     }
     else if (i % 5 === 0) {
-        console.log('bar')
+        console.log('bar', i)
     }
     else {
         console.log(i)
