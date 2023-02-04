@@ -23,4 +23,4 @@ for (let i = 0; i < friends.length; i++) {
         bigName = element
     }
 }
-console.log(bigName)
+// console.log(bigName)
