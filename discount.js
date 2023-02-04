@@ -24,8 +24,34 @@ function discount(ticketQuantity) {
     }
 }
 let result = discount(25);
-// console.log(result);
+// console.log(result)
 
-var student = { name: "Yo Mama", age: 17 };
-console.log(delete student.age)
-console.log(student)
+
+/* -----discount item----- */
+
+function totalTake(ticket) {
+    let onePrice_1_10 = 100;
+    let secondPrice_11_20 = 90;
+    let theePrice_21_30 = 80;
+    if (ticket <= 100) {
+        let totalOnePrice = onePrice_1_10 * ticket;
+        return totalOnePrice;
+    }
+    else if (ticket <= 200) {
+        let firstTenTicketPrice = 100 * onePrice_1_10;
+        let mineas = ticket - 100;
+        let second = mineas * secondPrice_11_20;
+        let totalSecondPrice = firstTenTicketPrice + second;
+        return totalSecondPrice;
+    }
+    else {
+        let firstTicketPrice = 100 * onePrice_1_10;
+        let secondTicketPrice = 100 * secondPrice_11_20;
+        let mines = ticket - 200;
+        let three = mines * theePrice_21_30;
+        let threeTicketPrice = firstTicketPrice + secondTicketPrice + three;
+        return threeTicketPrice;
+    }
+}
+let output = totalTake(201);
+console.log(output)
