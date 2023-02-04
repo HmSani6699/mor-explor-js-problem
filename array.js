@@ -31,3 +31,11 @@ let newArray = first.concat(second);
 // console.log(newArray)
 
 
+
+
+
+/* --------Array includes---------*/
+
+let number = [1, 2, 3, 4, 5, 6, 7, 8];
+let checkItem = number.includes(9);
+console.log(checkItem)
