@@ -38,4 +38,20 @@ let newArray = first.concat(second);
 
 let number = [1, 2, 3, 4, 5, 6, 7, 8];
 let checkItem = number.includes(9);
-console.log(checkItem)
+// console.log(checkItem)
+
+
+/* ----------Array concat----------- */
+let num = [1, 2, 3, 4, 5];
+let num1 = [6, 7, 8, 9, 10];
+let concatArray = num.concat(num1);
+// console.log(concatArray)
+
+
+/* ------ Array.isArray */
+let name_1 = 'sani';
+let friendsName = ['babu', 'sakib', 'rakib'];
+let checkArray = Array.isArray(friendsName)
+console.log(checkArray)
+
+
